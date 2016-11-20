@@ -20,7 +20,7 @@ fieldset.screen(v-on:keyup.enter="OK")
     span {{error_message}}
 
   div
-    button(v-on:click="OK", v-bind:disabled="enable_OK") OK
+    button(v-on:click="OK", v-bind:disabled="disable_OK") OK
 </template>
 
 <script>
